@@ -13,5 +13,13 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
+## Setup
+https://docs.aws.amazon.com/ja_jp/neptune/latest/userguide/access-graph-gremlin-console.html
+
+
 ## はまりポイント
 ### NeptuneはISOLATEDなネットワークにはおけない
+https://github.com/aws/aws-cdk/blob/master/packages/%40aws-cdk/aws-neptune/lib/cluster.ts#L422
+このあたり？
+
+### 
